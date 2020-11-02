@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run development -- --watch",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "cross-env": "^5.2.0",
+    "flexboxgrid": "^6.3.1",
+    "jquery": "^3.5.1",
+    "laravel-mix": "^4.1.2",
+    "laravel-mix-merge-manifest": "^0.1.2",
+    "lodash": "^4.17.20",
+    "normalize.css": "^8.0.1",
+    "ora": "^3.4.0",
+    "postcss": "^7.0.17",
+    "resolve-url-loader": "2.3.1",
+    "sass": "^1.22.5",
+    "sass-loader": "7.*",
+    "selectize": "^0.12.6",
+    "slick-carousel": "^1.8.1",
+    "tailwindcss": "^1.9.6"
+  },
+  "devDependencies": {
+    "vue-template-compiler": "^2.6.12"
+  }
+}
